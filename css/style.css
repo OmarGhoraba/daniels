@@ -1,0 +1,176 @@
+
+ 
+
+
+header{
+    background-image: url(/imgs/bg.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.header-cap h2 {
+    font-size: 6rem;
+}
+.header-cap p{
+    font-size: 6rem;
+}
+.header .overlay {
+    opacity: 0.8;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;;
+}
+.head-layout{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+}
+
+/* <!-- ======================= about================== --> */
+
+
+.pic-area{
+    background-image: url(/imgs/dots.png);
+}
+.pic-area img{
+    bottom: 40px;
+    left: 40px ;
+   
+}
+
+
+.progress-bar{
+   background-color: black!important ;
+   text-align: left!important;
+}
+.progress{
+    height: 1.5rem!important;
+}
+.progress p{
+    padding: 1rem ;
+    margin-top: 1rem;
+}
+
+/* ==========serv============== */
+
+
+.serv{
+    background-color:#f4f4f4;
+}
+.serv-item .icon {
+    width: 60px;
+    height: 60px;
+    background-color: #f4f4f4;
+    margin-left: 50%;
+    transform: translate(-50%);
+    transition: .5s;
+
+}
+.serv-item .icon:hover{
+    background-color: black;
+    color: white;
+}
+
+/* ========port========= */
+
+.nav a{
+    color: black !important;
+cursor: pointer;
+}
+  
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: transparent !important;
+}
+
+
+
+
+.pro-layout{
+    top: 5%;
+    right: 0;
+    left: 5%;
+    bottom:0;
+    opacity: 0;
+    width: 90%;
+    height: 90%;
+    transition: 0.5s;
+}
+.pro-item .pro-layout:hover{
+    opacity: 0.9;
+}
+
+/* ===== Testimon====== */
+.slide {
+    background-color: #f4f4f4;
+    padding: 3rem;
+}
+
+
+.slide img{
+    width: 100px;
+    height: 100px;
+}
+/* =============count======== */
+.container .row .count-item{
+    margin: 4rem 0rem;
+}
+.container .row .count-item p {
+    font-size: 1.5rem ;
+}
+.container .row .count-item i {
+    font-size: 4rem;
+}
+
+/* ========our team======== */
+    
+.our-team{
+    background-color: #f4f4f4;
+    padding-bottom: 4rem;
+}
+.our-team h2{
+    padding: 4rem;
+    
+}
+.card .card-body{
+background-color:#343434;}
+
+.card-layout{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70%;
+    opacity: 0;
+    transition: opacity 0.5s,transform 1s;
+    
+}
+.card .card-layout:hover{
+opacity: 0.9;
+transform: rotateY(180deg)
+}
+.card img{
+    transition: 0.5s;
+}
+.card .img-hover img:hover{
+    transform:scale(1.2,1.2);
+}
+/* ===========contact============= */
+.contact-us > h2{
+ margin: 4rem 0rem;
+}
+.cont-icons .bg-icon {
+    background-color:#f4f4f4;
+    width: 70px;
+    height: 70px;
+}
+.details form input {
+    background-color: #f4f4f4;
+}
+.details form textarea{
+    background-color: #f4f4f4;
+}
